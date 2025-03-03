@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title><!--nombre de que aparecera en la pestaña-->
+    <!-- Enlazar el archivo CSS -->
+    <link rel="stylesheet" href="Cafeteria.css">
+</head>
+<body>
+   / <div class="nombre">
+        <h1>CAFETERIA</h1>
+    </div>
+    <form id="formularioP" method="post" action="#" onsubmit="mostrar()">
+        <!-- Sección de productos -->
+        <div class="seccionP">
+            <h3>Agrega un producto:</h3>
+            <label for="productoSelec">Cafe</label>
+            <select id="productoSelec">s
+                <option value="">Elegir una opción:</option>
+                <option value="Americano">Americano</option>
+                <option value="Capuccino">Capuccino</option>
+                <option value="Latte">Latte</option>
+                <!-- Agregar más opciones de productos aquí -->
+            </select>
+            <div class="producto-detalles">
+                <h3>Tipo de bebida</h3>
+                <label for="beverageInput">Bebida:</label>
+                <input type="text" name="Bebidas" id="beverageInput">
+            </div>
+            <div class="producto-detalles">
+                <h3>Tamaño</h3>
+                <label for="sizeSelect">Tamaño:</label>
+                <select id="sizeSelect">
+                    <option value="Grande">Grande</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Pequeño">Pequeño</option>
+                </select>
+            </div>
+        </div>
+        <!-- Sección de complementos -->
+        <div class="complementos">
+            <h3>Complementos:</h3>
+            <label for="hielosCheckbox">Hielos</label>
+            <input type="checkbox" name="Complementos" id="hielosCheckbox" value="Hielos">
+            <label for="azucarCheckbox">Azucar</label>
+            <input type="checkbox" name="Complementos" id="azucarCheckbox" value="Azucar">
+            <label for="malvaviscoCheckbox">Malvavisco</label>
+            <input type="checkbox" name="Complementos" id="malvaviscoCheckbox" value="Malvavisco">
+        </div>
+        <!-- Botones para enviar y borrar -->
+        <div class="buttons">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            
+        </div>
+    </form>
+    <!-- Enlazar el archivo JavaScript -->
+    <script src="cafeteria.js"></script>
+</body>
+</html>
