@@ -1,1 +1,65 @@
-hola mundo
+/*Estilos generales de la pagina*/
+body{
+    /*color de fondo de la pagina*/
+    background-color:#f0cda2;
+}
+h3 {
+    /*fuente de texto, color y tamaño*/
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #6b4e37;
+}
+
+h1{
+     /*pisicion del texto*/
+    position:relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;;
+    color:#6b4e37
+    
+}
+
+label {
+    /*fuente de tipo de letra, tamaño y color*/
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    color: #442d06;
+}
+
+.seccionP,
+.complementos {
+    /*borde, margen*/
+    background-color: #ffeec2;
+    border: 0px solid #dcdcdc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.producto-detalles {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    color: #6b4e37;
+}
+
+.buttons input[type="submit"],
+.buttons input[type="reset"] {
+    /*estilo de los botoness*/
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6b4e37;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttons input[type="reset"] {
+    background-color: #bfa77f;
+}
+
+.seccionP,
+.complementos{
+    column-count: 2;
+    column-gap:1cm;
+}
